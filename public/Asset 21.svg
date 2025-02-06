@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 86.01 141.04">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke: #000;
+      }
+
+      .cls-1, .cls-3, .cls-4 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-2 {
+        fill-rule: evenodd;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2, .cls-4 {
+        stroke-width: .25px;
+      }
+
+      .cls-3 {
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <g id="LINE">
+    <g id="HATCH">
+      <polyline class="cls-2" points="34.5 106.91 34.5 140.91 68.51 140.91 68.51 106.91"/>
+    </g>
+    <g id="LWPOLYLINE">
+      <path class="cls-4" d="m68.51,106.91c0-9.39-7.61-17-17-17s-17,7.61-17,17v34h34v-34Z"/>
+    </g>
+    <g id="LINE-2" data-name="LINE">
+      <line class="cls-3" x1="51.5" y1="89.91" x2="51.5" y2="1.5"/>
+    </g>
+    <g id="LINE-3" data-name="LINE">
+      <line class="cls-1" x1=".5" y1="72.91" x2="85.51" y2="72.91"/>
+    </g>
+    <g id="LINE-4" data-name="LINE">
+      <line class="cls-1" x1="20.9" y1="59.31" x2="82.11" y2="59.31"/>
+    </g>
+    <g id="LINE-5" data-name="LINE">
+      <line class="cls-1" x1="14.26" y1="45.7" x2="75.31" y2="45.7"/>
+    </g>
+    <g id="LINE-6" data-name="LINE">
+      <line class="cls-1" x1="26.66" y1="32.1" x2="85.51" y2="32.1"/>
+    </g>
+    <g id="LINE-7" data-name="LINE">
+      <line class="cls-1" x1="35.22" y1="18.5" x2="78.71" y2="18.5"/>
+    </g>
+    <g id="LINE-8" data-name="LINE">
+      <line class="cls-1" x1="20.9" y1="4.9" x2="82.11" y2="4.9"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30.85 56.78">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #000;
+        stroke-width: .25px;
+      }
+
+      .cls-2 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <g id="LINE">
+    <g id="LINE-2" data-name="LINE">
+      <line class="cls-2" x1=".13" y1="56.66" x2="30.73" y2="56.66"/>
+    </g>
+    <g id="HATCH">
+      <rect class="cls-1" x=".12" y="49.86" width="30.6" height="6.8"/>
+    </g>
+    <g id="LWPOLYLINE">
+      <rect class="cls-2" x=".13" y="49.86" width="30.6" height="6.8"/>
+    </g>
+    <g id="LWPOLYLINE-2" data-name="LWPOLYLINE">
+      <path class="cls-2" d="m15.44.12l-7.85,17.36c1.78,0,3.22,1.44,3.22,3.22s-1.44,3.22-3.22,3.22H.99v3.4h28.9L15.44.12Z"/>
+    </g>
+  </g>
+</svg>

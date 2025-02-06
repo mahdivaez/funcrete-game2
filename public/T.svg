@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52.64 105.03">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: .25px;
+      }
+    </style>
+  </defs>
+  <g id="LINE">
+    <g id="LWPOLYLINE">
+      <path class="cls-1" d="m52.51.12H.12v70.72c.05,0,.11,0,.16,0,7.19.05,12.98,5.91,12.93,13.1v20.96h26.19v-20.96c0-.05,0-.11,0-.16.05-7.19,5.91-12.98,13.1-12.93V.12Z"/>
+    </g>
+  </g>
+</svg>

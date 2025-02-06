@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 41.06 31.55">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: .25px;
+      }
+    </style>
+  </defs>
+  <g id="LINE">
+    <g id="REGION">
+      <g id="LINE-2" data-name="LINE">
+        <path class="cls-1" d="m30.23.12h-14.04C7.32.12.12,7.32.12,16.18v15.24h2.48c.2-5.52,2.32-9.95,5.11-10.98,2.8-1.04,6.26,1.31,6.68,5.68l.35,5.3h7.13c0-3.1,2.52-5.61,5.62-5.61s5.61,2.51,5.61,5.61h7.83V10.83C40.93,4.91,36.14.12,30.23.12ZM6.17,12.49c-.49,0-.88-.4-.88-.89s.39-.88.88-.88.89.39.89.88-.4.89-.89.89Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

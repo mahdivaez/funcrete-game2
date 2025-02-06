@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24.06 97.14">
+  <defs>
+    <style>
+      .cls-1 {
+        fill-rule: evenodd;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #000;
+        stroke-width: .25px;
+      }
+
+      .cls-2 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <g id="LINE">
+    <g id="HATCH">
+      <path class="cls-1" d="m.13,12.03h23.8H.13Z"/>
+    </g>
+    <g id="LWPOLYLINE">
+      <path class="cls-2" d="m.13,12.03h23.8C23.93,5.45,18.6.12,12.03.12S.13,5.45.13,12.03Z"/>
+    </g>
+    <g id="LWPOLYLINE-2" data-name="LWPOLYLINE">
+      <path class="cls-2" d="m.12,47.71v49.3h5.1v-10.2c0-3.76,3.06-6.8,6.8-6.8s6.8,3.04,6.8,6.8v10.2h5.1v-49.3H.12Zm11.9,25.58c-2.87,0-5.18-2.33-5.18-5.18s2.31-5.19,5.18-5.19,5.19,2.33,5.19,5.19-2.33,5.18-5.19,5.18Z"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40.81 170.01">
+  <defs>
+    <style>
+      .cls-1 {
+        fill-rule: evenodd;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #c10202;
+      }
+    </style>
+  </defs>
+  <g id="LINE">
+    <g id="HATCH">
+      <path class="cls-1" d="m20.4,0L0,26.84v143.18h40.81V26.84L20.4,0Zm13.61,163.21H6.8v-27.2h27.2v27.2Z"/>
+    </g>
+    <g id="LWPOLYLINE">
+      <path class="cls-2" d="m20.4,0L0,26.84v143.18h40.81V26.84L20.4,0Zm13.61,163.21H6.8v-27.2h27.2v27.2Z"/>
+    </g>
+  </g>
+</svg>

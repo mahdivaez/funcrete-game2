@@ -1,0 +1,297 @@
+{
+    "players": [
+      {
+        "key": "player1",
+        "type": "player",
+        "path": "object-02.svg",
+        "scale": 0.5,
+        "hitbox": {
+          "width": 10,
+          "height": 100
+        },
+        "physics": {
+          "gravity": 800,
+          "speed": {
+            "run": 300,
+            "jump": 500
+          }
+        },
+        "spawnPoint": {
+          "x": 100,
+          "y": 250
+        }
+      },
+      {
+        "key": "player2",
+        "type": "player",
+        "path": "object-03.svg",
+        "scale": 0.5,
+        "hitbox": {
+          "width": 10,
+          "height": 100
+        },
+        "physics": {
+          "gravity": 800,
+          "speed": {
+            "run": 300,
+            "jump": 500
+          }
+        },
+        "spawnPoint": {
+          "x": 100,
+          "y": 250
+        }
+      }
+    ],
+    "objects": [
+      {
+        "key": "gap",
+        "type": "gap",
+        "path": "gap.png", 
+        "scale": 1,
+        "hitbox": {
+          "width": 1800,
+          "height": 20 
+        },
+        "positions": [
+          { "x": 200, "y": 300 }, 
+          { "x": 500, "y": 300 }  
+        ]
+      },
+      {
+        "key": "stable-platform-1",
+        "type": "platform",
+        "path": "F.svg", 
+        "scale": 1,
+        "isStatic": true,
+        "hitbox": {
+          "width": 100,
+          "height": 20 
+        },
+        "positions": [
+          { "x": 290, "y": 400 } 
+        ]
+      },
+      {
+        "key": "stable-platform-2",
+        "type": "platform",
+        "path": "U.svg", 
+        "scale": 1,
+        "isStatic": true,
+        "hitbox": {
+          "width": 100,
+          "height": 20 
+        },
+        "positions": [
+          { "x": 500, "y": 400 }
+        ]
+      },
+      {
+        "key": "stable-platform-3",
+        "type": "platform",
+        "path": "N.svg", 
+        "scale": 1,
+        "isStatic": true,
+        "hitbox": {
+          "width": 100,
+          "height": 20 
+        },
+        "positions": [
+          { "x": 700, "y": 400 }
+        ]
+      },
+      {
+        "key": "stable-platform-4",
+        "type": "platform",
+        "path": "C.svg", 
+        "scale": 1,
+        "isStatic": true,
+        "hitbox": {
+          "width": 100,
+          "height": 20 
+        },
+        "positions": [
+          { "x": 900, "y": 400 }
+        ]
+      },
+      {
+        "key": "stable-platform-5",
+        "type": "platform",
+        "path": "R.svg", 
+        "scale": 1,
+        "isStatic": true,
+        "hitbox": {
+          "width": 100,
+          "height": 20 
+        },
+        "positions": [
+          { "x": 1100, "y": 400 }
+        ]
+      },
+      {
+        "key": "stable-platform-6",
+        "type": "platform",
+        "path": "E.svg", 
+        "scale": 1,
+        "isStatic": true,
+        "hitbox": {
+          "width": 100,
+          "height": 20 
+        },
+        "positions": [
+          { "x": 1400, "y": 400 }
+        ]
+      },
+      {
+        "key": "stable-platform-7",
+        "type": "platform",
+        "path": "T.svg", 
+        "scale": 1,
+        "isStatic": true,
+        "hitbox": {
+          "width": 100,
+          "height": 20 
+        },
+        "positions": [
+          { "x": 1700, "y": 400 }
+        ]
+      },
+      {
+        "key": "stable-platform-8",
+        "type": "platform",
+        "path": "E.svg", 
+        "scale": 1,
+        "isStatic": true,
+        "hitbox": {
+          "width": 100,
+          "height": 20 
+        },
+        "positions": [
+          { "x": 2000, "y": 400 }
+        ]
+      },
+      {
+        "key": "static-platform",
+        "type": "platform",
+        "path": "Asset3.svg",
+        "scale": 0.8,
+        "isStatic": true,
+        "hitbox": {
+          "width": 140,
+          "height": 100
+        },
+        "sideHitboxes": {
+          "left": {
+            "width": 10,
+            "height": 60
+          },
+          "right": {
+            "width": 10,
+            "height": 60
+          }
+        },
+        "positions": [
+          { "x": 2200, "y": 250 },
+          { "x": 2500, "y": 250 },
+          { "x": 2800, "y": 250 },
+          { "x": 3100, "y": 100 },
+          { "x": 3400, "y": 250 },
+          { "x": 3700, "y": 250 },
+          { "x": 4000, "y": 250 },
+          { "x": 4300, "y": 100 },
+          { "x": 4600, "y": 250 }
+        ]
+      },
+      {
+        "key": "ground-enemy-1",
+        "type": "enemy",
+        "category": "ground",
+        "path": "Asset3.svg",
+        "scale": 0.6,
+        "speed": 150,   
+        "hitbox": {
+          "width": 50,
+          "height": 50
+        },
+        "sideHitboxes": {
+          "left": {
+            "width": 10,
+            "height": 50
+          },
+          "right": {
+            "width": 10,
+            "height": 50
+          }
+        },
+        "positions": [
+          { "x": 2400, "y": 250 },
+          { "x": 3200, "y": 250 },  
+          { "x": 4000, "y": 250 }  
+        ]
+      },
+      {
+        "key": "coin",
+        "type": "collectible",
+        "path": "GAudit_YellowDot.png", 
+        "scale": 0.05,
+        "hitbox": {
+          "width": 700,
+          "height": 600
+        },
+        "positions": [
+          { "x": 2300, "y": 200 },
+          { "x": 2600, "y": 200 },
+          { "x": 2900, "y": 200 },
+          { "x": 3200, "y": 100 },
+          { "x": 3500, "y": 100 },
+          { "x": 3800, "y": 200 },
+          { "x": 4100, "y": 200 },
+          { "x": 4400, "y": 100 },
+          { "x": 4700, "y": 100 }
+        ]
+      },
+      {
+        "key": "flying-enemy-1",
+        "type": "enemy",
+        "category": "flying",
+        "path": "flying-enemy.svg",
+        "scale": 0.6,
+        "speed": 150,  
+        "hitbox": {
+          "width": 50,
+          "height": 50
+        },
+        "movement": {
+          "type": "sine",
+          "amplitude": 50,
+          "frequency": 2000
+        },
+        "positions": [
+          { "x": 2200, "y": 150 },
+          { "x": 3400, "y": 150 },  
+          { "x": 4600, "y": 150 }   
+        ]
+      },
+      {
+        "key": "moving-platform-1",
+        "type": "platform",
+        "path": "moving-platform.svg",
+        "scale": 1,
+        "isStatic": false,
+        "hitbox": {
+          "width": 100,
+          "height": 20 
+        },
+        "positions": [
+          { "x": 2400, "y": 350 },
+          { "x": 2800, "y": 350 },
+          { "x": 3200, "y": 350 },
+          { "x": 3600, "y": 350 },
+          { "x": 4000, "y": 350 }
+        ]
+      }
+    ]
+  } 
+
+
+

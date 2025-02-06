@@ -1,0 +1,2156 @@
+{
+  "players": [
+    {
+      "key": "player1_red",
+      "type": "player",
+      "path": "Asset 53.svg",
+      "scale": 0.5,
+      "hitbox": {
+        "width": 140,
+        "height": 0
+      },
+      "physics": {
+        "gravity": 800,
+        "speed": {
+          "run": 300,
+          "jump": 600
+        }
+      },
+      "spawnPoint": {
+        "x": 3000,
+        "y": 300
+      }
+    },
+    {
+      "key": "player1_black",
+      "type": "player",
+      "path": "Asset 9.svg",
+      "scale": 0.5,
+      "hitbox": {
+        "width": 140,
+        "height": 0
+      },
+      "physics": {
+        "gravity": 800,
+        "speed": {
+          "run": 300,
+          "jump": 600
+        }
+      },
+      "spawnPoint": {
+        "x": 10950,
+        "y": 300
+      }
+    },
+    {
+      "key": "player1_gray",
+      "type": "player",
+      "path": "Asset 54.svg",
+      "scale": 0.5,
+      "hitbox": {
+        "width": 140,
+        "height": 0
+      },
+      "physics": {
+        "gravity": 800,
+        "speed": {
+          "run": 300,
+          "jump": 600
+        }
+      },
+      "spawnPoint": {
+        "x": 242,
+        "y": 300
+      }
+    },
+    {
+      "key": "player2_red",
+      "type": "player",
+      "path": "Asset 200.svg",
+      "scale": 0.6,
+      "hitbox": {
+        "width": 140,
+        "height": 0
+      },
+      "physics": {
+        "gravity": 800,
+        "speed": {
+          "run": 320,
+          "jump": 580
+        }
+      },
+      "spawnPoint": {
+        "x": 3042,
+        "y": 300
+      }
+    },
+    {
+      "key": "player2_black",
+      "type": "player",
+      "path": "Asset 198.svg",
+      "scale": 0.5,
+      "hitbox": {
+        "width": 140,
+        "height": 0
+      },
+      "physics": {
+        "gravity": 800,
+        "speed": {
+          "run": 320,
+          "jump": 580
+        }
+      },
+      "spawnPoint": {
+        "x": 242,
+        "y": 300
+      }
+    },
+    {
+      "key": "player2_gray",
+      "type": "player",
+      "path": "Asset 199.svg",
+      "scale": 0.5,
+      "hitbox": {
+        "width": 300,
+        "height": 0
+      },
+      "physics": {
+        "gravity": 800,
+        "speed": {
+          "run": 320,
+          "jump": 580
+        }
+      },
+      "spawnPoint": {
+        "x": 242,
+        "y": 300
+      }
+    },
+    {
+      "key": "player3_red",
+      "type": "player",
+      "path": "Asset 203.svg",
+      "scale": 0.5,
+      "hitbox": {
+        "width": 300,
+        "height": 0
+      },
+      "physics": {
+        "gravity": 800,
+        "speed": {
+          "run": 280,
+          "jump": 620
+        }
+      },
+      "spawnPoint": {
+        "x": 242,
+        "y": 300
+      }
+    },
+    {
+      "key": "player3_black",
+      "type": "player",
+      "path": "Asset 206.svg",
+      "scale": 0.4,
+      "hitbox": {
+        "width": 300,
+        "height": 0
+      },
+      "physics": {
+        "gravity": 800,
+        "speed": {
+          "run": 280,
+          "jump": 620
+        }
+      },
+      "spawnPoint": {
+        "x": 17100,
+        "y": 300
+      }
+    },
+    {
+      "key": "player3_gray",
+      "type": "player",
+      "path": "Asset 201.svg",
+      "scale": 0.4,
+      "hitbox": {
+        "width": 300,
+        "height": 0
+      },
+      "physics": {
+        "gravity": 800,
+        "speed": {
+          "run": 280,
+          "jump": 620
+        }
+      },
+      "spawnPoint": {
+        "x": 242,
+        "y": 300
+      }
+    },
+    {
+      "key": "player4_red",
+      "type": "player",
+      "path": "Asset 205.svg",
+      "scale": 0.4,
+      "hitbox": {
+        "width": 300,
+        "height": 0
+      },
+      "physics": {
+        "gravity": 800,
+        "speed": {
+          "run": 300,
+          "jump": 600
+        }
+      },
+      "spawnPoint": {
+        "x": 242,
+        "y": 300
+      }
+    },
+    {
+      "key": "player4_black",
+      "type": "player",
+      "path": "Asset 209.svg",
+      "scale": 0.4,
+      "hitbox": {
+        "width": 300,
+        "height": 0
+      },
+      "physics": {
+        "gravity": 800,
+        "speed": {
+          "run": 300,
+          "jump": 600
+        }
+      },
+      "spawnPoint": {
+        "x": 242,
+        "y": 300
+      }
+    },
+    {
+      "key": "player4_gray",
+      "type": "player",
+      "path": "Asset 204.svg",
+      "scale": 0.4,
+      "hitbox": {
+        "width": 300,
+        "height": 0
+      },
+      "physics": {
+        "gravity": 800,
+        "speed": {
+          "run": 300,
+          "jump": 600
+        }
+      },
+      "spawnPoint": {
+        "x": 242,
+        "y": 300
+      }
+    }
+]
+,  
+  "objects": [
+    {
+      "key": "gap",
+      "type": "gap",
+      "path": "gap.png", 
+      "scale": 1,
+      "hitbox": {
+        "width": 1800,
+        "height": 20 
+      },
+      "positions": [
+        {"x" : 0},
+        { "x": 200, "y": 300 }, 
+        { "x": 500, "y": 300 }  
+      ]
+    },
+    {
+      "key": "stable-platform-1",
+      "type": "platform",
+      "path": "F.svg", 
+      "scale": 1,
+      "isStatic": true,
+      "hitbox": {
+        "width": 45,
+        "height": 900 
+      },
+      "positions": [
+        { "x": 100, "y": 630 } 
+      ]
+    },
+    {
+      "key": "stable-platform-2",
+      "type": "platform",
+      "path": "U.svg", 
+      "scale": 1,
+      "isStatic": true,
+      "hitbox": {
+        "width": 55,
+        "height": 0 
+      },
+      "positions": [
+        { "x": 400, "y": 630 }
+      ]
+    },
+    {
+      "key": "stable-platform-3",
+      "type": "platform",
+      "path": "N.svg", 
+      "scale": 1,
+      "isStatic": true,
+      "hitbox": {
+        "width": 50,
+        "height": 20 
+      },
+      "positions": [
+        { "x": 700, "y": 630 }
+      ]
+    },
+    {
+      "key": "stable-platform-4",
+      "type": "platform",
+      "path": "C.svg", 
+      "scale": 1,
+      "isStatic": true,
+      "hitbox": {
+        "width": 50,
+        "height": 20 
+      },
+      "positions": [
+        { "x": 1000, "y": 630 }
+      ]
+    },
+    {
+      "key": "stable-platform-5",
+      "type": "platform",
+      "path": "R.svg", 
+      "scale": 1,
+      "isStatic": true,
+      "hitbox": {
+        "width": 50,
+        "height": 20 
+      },
+      "positions": [
+        { "x": 1300, "y": 630 }
+      ]
+    },
+    {
+      "key": "stable-platform-6",
+      "type": "platform",
+      "path": "E.svg", 
+      "scale": 1,
+      "isStatic": true,
+      "hitbox": {
+        "width": 50,
+        "height": 20 
+      },
+      "positions": [
+        { "x": 1600, "y": 630 }
+      ]
+    },
+    {
+      "key": "stable-platform-7",
+      "type": "platform",
+      "path": "T.svg", 
+      "scale": 1,
+      "isStatic": true,
+      "hitbox": {
+        "width": 50,
+      
+        "height": 20 
+      },
+      "positions": [
+        { "x": 1900, "y": 630 }
+      ]
+    },
+    {
+      "key": "stable-platform-8",
+      "type": "platform",
+      "path": "E.svg", 
+      "scale": 1,
+      "isStatic": true,
+      "hitbox": {
+        "width": 50,
+        "height": 20 
+      },
+      "positions": [
+        { "x": 2200, "y": 630 }
+      ]
+    },
+   
+    {
+      "key": "stable-enemy-1",
+      "type": "enemy",
+      "category": "stable",
+      "path": "Asset 75.svg",
+      "scale": 0.6,
+      "isStatic": true,
+      "hitbox": {
+        "width": 200,
+        "height": 250  
+      },
+      "positions": [
+        { "x": 2500, "y": 519 }
+      ]
+    }, {
+      "key": "stable-platform-9",
+      "type": "platform",
+      "path": "Asset 4.svg", 
+      "scale": 1,
+      "isStatic": true,
+      "hitbox": {
+        "width": 155,
+        "height": 0 
+      },
+      "positions": [
+        { "x": 3000, "y": 485 }
+      ]
+    },
+    {
+      "key": "stable-platform-10",
+      "type": "platform",
+      "path": "Asset 5.svg", 
+      "scale": 1,
+      "isStatic": true,
+      "hitbox": {
+        "width": 150,
+        "height": 150 
+      },
+      "positions": [
+        { "x": 3300, "y": 350 }
+      ]
+    },
+    {
+      "key": "stable-enemy-11",
+      "type": "enemy",
+      "category": "stable",
+      "path": "Asset 69.svg", 
+      "scale": 2,
+      "isStatic": true,
+      "hitbox": {
+        "width": 40,
+        "height": 300 
+      },
+      "positions": [
+        { "x": 3500, "y": 410 }
+      ]
+    },
+   
+    {
+      "key": "stable-platform-12",
+      "type": "platform",
+      "path": "Asset 8.svg",
+      "scale": 1,
+      "isStatic": true,
+      "hitbox": {
+        "width": 150,
+        "height": 150 
+      },
+      "positions": [
+        { "x": 3800, "y": 395 }
+      ]
+    },
+    {
+      "key": "stable-platform-13",
+      "type": "platform",
+      "path": "Asset 5.svg",
+      "scale": 1,
+      "isStatic": true,
+      "hitbox": {
+        "width": 140,
+        "height": 150 
+      },
+      "positions": [
+        { "x": 4000, "y": 285 }
+      ]
+    },
+    {
+      "key": "stable-platform-14",
+      "type": "platform",
+      "path": "Asset 10.svg",
+      "scale": 1.9,
+      "isStatic": true,
+      "hitbox": {
+        "width": 30,
+        "height": 200 
+      },
+      "positions": [
+        { "x": 4300, "y": 420 }
+      ]
+    },
+   
+    {
+      "key": "stable-platform-15",
+      "type": "enemy",
+      "category": "ground",
+      "path": "Asset 11.svg",
+      "scale": 0.5,
+      "speed": 280,   
+      "hitbox": {
+        "width": 50,
+        "height": 50
+      },
+      "sideHitboxes": {
+        "left": {
+          "width": 110,
+          "height": 50
+        },
+        "right": {
+          "width": 100,
+          "height": 50
+        }
+      },
+      "positions": [
+          { "x": 4300, "y": 620 },
+          { "x": 4400, "y": 680 }
+      ]
+    },
+    {
+      "key": "stable-platform-16",
+      "type": "platform",
+      "path": "Asset 12.svg",
+      "scale": 0.9,
+      "isStatic": true,
+      "hitbox": {
+        "width": 140,
+        "height": 0 
+      },
+      "positions": [
+        { "x": 4500, "y": 490 }
+
+      ]
+    },{
+      "key": "stable-platform-105",
+      "type": "enemy",
+      "category": "ground",
+      "path": "Asset 59.svg",
+      "scale": 0.5,
+      "speed": 280,   
+      "hitbox": {
+        "width": 50,
+        "height": 50
+      },
+      "sideHitboxes": {
+        "left": {
+          "width": 110,
+          "height": 50
+        },
+        "right": {
+          "width": 100,
+          "height": 50
+        }
+      },
+      "positions": [
+        { "x": 4590, "y": 520 }
+
+      ]
+    },
+   
+    {
+      "key": "stable-platform-18",
+      "type": "platform",
+      "path": "Asset 13.svg",
+      "scale": 1,
+      "isStatic": true,
+      "hitbox": {
+        "width": 230,
+        "height": 220 
+      },
+      "positions": [
+        { "x": 5000, "y": 489 }
+
+      ]
+    },
+    
+    {
+      "key": "ground-enemy-110",
+      "type": "enemy",
+      "category": "ground",
+      "path": "Asset 14.svg",
+      "scale": 0.5,
+      "speed": 280,   
+      "hitbox": {
+        "width": 50,
+        "height": 50
+      },
+      "sideHitboxes": {
+        "left": {
+          "width": 110,
+          "height": 50
+        },
+        "right": {
+          "width": 100,
+          "height": 50
+        }
+      },
+      "positions": [
+        { "x": 5200, "y": 520 }  
+      ]
+    },
+    
+    {
+      "key": "stable-platform-20",
+      "type": "platform",
+      "path": "Asset 101.svg",
+      "scale": 1,
+      "isStatic": true,
+      "hitbox": {
+        "width": 0,
+        "height": 90 
+      },
+      "positions": [
+        { "x": 5500, "y": 482 }
+
+      ]
+    },
+    {
+      "key": "flying-enemy-1",
+      "type": "enemy",
+      "category": "flying",
+      "path": "Asset 70.svg",
+      "scale": 0.25,
+      "speed": 150,  
+      "hitbox": {
+        "width": 100,
+        "height": 100
+      },
+      "movement": {
+        "type": "sine",
+        "amplitude": 160,
+        "frequency": 2000
+      },
+      "positions": [
+        { "x": 5500, "y": 150 }
+      ]
+    },
+    {
+      "key": "stable-platform-21",
+      "type": "platform",
+      "path": "Asset 16.svg",
+      "scale": 1,
+      "isStatic": true,
+      "hitbox": {
+        "width": 90,
+        "height": 150 
+      },
+      "positions": [
+        { "x": 5900, "y": 485 }
+
+      ]
+    },{
+      "key": "stable-platform-22",
+      "type": "platform",
+      "path": "Asset 5.svg",
+      "scale": 1,
+      "isStatic": true,
+      "hitbox": {
+        "width": 0,
+        "height": 150 
+      },
+      "positions": [
+        { "x": 6150, "y": 275 }
+
+      ]
+    }
+    ,{
+      "key": "stable-platform-24",
+      "type": "platform",
+      "path": "Asset 4.svg",
+      "scale": 1,
+      "isStatic": true,
+      "hitbox": {
+        "width": 150,
+        "height": 200 
+      },
+      "positions": [
+        { "x": 6500, "y": 480 }
+
+      ]
+    },
+    {
+      "key": "ground-enemy-1",
+      "type": "enemy",
+      "category": "ground",
+      "path": "Asset 11.svg",
+      "scale": 0.5,
+      "speed": 150,   
+      "hitbox": {
+        "width": 50,
+        "height": 50
+      },
+      "sideHitboxes": {
+        "left": {
+          "width": 110,
+          "height": 50
+        },
+        "right": {
+          "width": 100,
+          "height": 50
+        }
+      },
+      "positions": [
+        { "x": 6000, "y": 675 }
+ 
+      ]
+    },
+    {
+      "key": "ground-enemy-102",
+      "type": "enemy",
+      "category": "ground",
+      "path": "Asset 17.svg",
+      "scale": 0.4,
+      "speed": 150,   
+      "hitbox": {
+        "width": 50,
+        "height": 50
+      },
+      "sideHitboxes": {
+        "left": {
+          "width": 10,
+          "height": 50
+        },
+        "right": {
+          "width": 100,
+          "height": 50
+        }
+      },
+      "positions": [
+        { "x": 6700, "y": 526 }  
+      ]
+    },
+ 
+    {
+      "key": "stable-enemy-25",
+      "type": "enemy",
+      "category": "stable",
+      "path": "Asset 103.svg",
+      "scale": 0.33,
+      "isStatic": true,
+      "hitbox": {
+        "width": 100,
+        "height": -12  
+      },
+      "positions": [
+        { "x": 7000, "y": 550 }
+      ]
+    },
+    {
+      "key": "flying-enemy-2",
+      "type": "enemy",
+      "category": "flying",
+      "path": "Asset 71.svg",
+      "scale": 0.77,
+      "speed": 150,  
+      "hitbox": {
+        "width": 10,
+        "height": 0
+      },
+      "movement": {
+        "type": "sine",
+        "amplitude": 160,
+        "frequency": 2000
+      },
+      "positions": [
+        { "x": 7000, "y": 150 }
+      ]
+    },
+    {
+      "key": "stable-platform-26",
+      "type": "platform",
+      "path": "Asset 5.svg",
+      "scale": 1,
+      "isStatic": true,
+      "hitbox": {
+        "width": 70,
+        "height": 120 
+      },
+      "positions": [
+        { "x": 7200, "y": 190 }
+
+      ]
+    },
+    {
+      "key": "ground-enemy-30",
+      "type": "enemy",
+      "category": "ground",
+      "path": "Asset 19.svg",
+      "scale": 0.7,
+      "speed": 150,   
+      "hitbox": {
+        "width": 50,
+        "height": 50
+      },
+      "sideHitboxes": {
+        "left": {
+          "width": 110,
+          "height": 50
+        },
+        "right": {
+          "width": 100,
+          "height": 50
+        }
+      },
+      "positions": [
+        { "x": 7300, "y": 510 }  
+      ]
+    }
+,
+    
+    
+    
+    
+     {
+      "key": "stable-platform-28",
+      "type": "platform",
+      "path": "Asset 20.svg",
+      "scale": 1,
+      "isStatic": true,
+      "hitbox": {
+        "width": 295,
+        "height": 0 
+      },
+      "positions": [
+        { "x": 7700, "y": 510 }
+
+      ]
+    },
+  
+    {
+      "key": "ground-enemy-100",
+      "type": "enemy",
+      "category": "ground",
+      "path": "Asset 11.svg",
+      "scale": 0.3,
+      "speed": 150,   
+      "hitbox": {
+        "width": 50,
+        "height": 50
+      },
+      "sideHitboxes": {
+        "left": {
+          "width": 110,
+          "height": 50
+        },
+        "right": {
+          "width": 180,
+          "height": 50
+        }
+      },
+      "positions": [
+        { "x": 7700, "y": 680 }  
+      ]
+    },
+    {
+      "key": "stable-platform-31",
+      "type": "platform",
+      "path": "Asset 21.svg",
+      "scale": 1,
+      "isStatic": true,
+      "hitbox": {
+        "width": 0,
+        "height": 100 
+      },
+      "positions": [
+        { "x": 8200, "y": 490 }
+
+      ]
+    },
+    {
+      "key": "ground-enemy-3",
+      "type": "enemy",
+      "category": "ground",
+      "path": "Asset 22.svg",
+      "scale": 0.4,
+      "speed": 150,   
+      "hitbox": {
+        "width": 50,
+        "height": 50
+      },
+      "sideHitboxes": {
+        "left": {
+          "width": 110,
+          "height": 50
+        },
+        "right": {
+          "width": 100,
+          "height": 50
+        }
+      },
+      "positions": [
+        { "x": 8300, "y": 530 }  
+      ]
+    }
+,
+{
+  "key": "stable-platform-32",
+  "type": "platform",
+  "path": "Asset 23.svg",
+  "scale": 1,
+  "isStatic": true,
+  "hitbox": {
+    "width": 300,
+    "height": 0 
+  },
+  "positions": [
+    { "x": 8700, "y": 510 }
+
+  ]
+},
+{
+  "key": "stable-platform-33",
+  "type": "platform",
+  "path": "Asset 59.svg",
+  "scale": 0.5,
+  "isStatic": true,
+  "hitbox": {
+    "width": 10,
+    "height": 0 
+  },
+  "positions": [
+    { "x": 9250, "y": 522 }
+
+  ]
+},
+{
+  "key": "stable-platform-304",
+  "type": "platform",
+  "path": "Asset 59.svg",
+  "scale": 0.35,
+  "isStatic": true,
+  "hitbox": {
+    "width": 10,
+    "height": 0 
+  },
+  "positions": [
+    { "x": 9250, "y": 460 }
+
+  ]
+},
+{
+  "key": "flying-enemy-138",
+  "type": "enemy",
+  "category": "flying",
+  "path": "Asset 74.svg",
+  "scale": 0.25,
+  "speed": 100,  
+  "hitbox": {
+    "width": 10,
+    "height": 150
+  },
+  "movement": {
+    "type": "sine",
+    "amplitude": 110,
+    "frequency": 2000
+  },
+  "positions": [
+    { "x": 9250, "y": 300 }
+  ]
+},
+
+{
+  "key": "ground-enemy-13",
+  "type": "enemy",
+  "category": "ground",
+  "path": "Asset 25.svg",
+  "scale": 0.3,
+  "speed": 150,   
+  "hitbox": {
+    "width": 50,
+    "height": 50
+  },
+  "sideHitboxes": {
+    "left": {
+      "width": 110,
+      "height": 50
+    },
+    "right": {
+      "width": 100,
+      "height": 50
+    }
+  },
+  "positions": [
+    { "x": 9400, "y": 540 }  
+  ]
+},
+
+
+  {
+  "key": "flying-enemy-118",
+  "type": "enemy",
+  "category": "flying",
+  "path": "Asset 7.svg",
+  "scale": 0.51,
+  "speed": 100,  
+  "hitbox": {
+    "width": 100,
+    "height": 150
+  },
+  "movement": {
+    "type": "sine",
+    "amplitude": 290,
+    "frequency": 2000
+  },
+  "positions": [
+    { "x": 9700, "y": 180 }
+  ]
+},
+
+
+
+  {
+  "key": "flying-enemy-118",
+  "type": "enemy",
+  "category": "flying",
+  "path": "Asset 7.svg",
+  "scale": 0.51,
+  "speed": 100,  
+  "hitbox": {
+    "width": 100,
+    "height": 150
+  },
+  "movement": {
+    "type": "sine",
+    "amplitude": 160,
+    "frequency": 2000
+  },
+  "positions": [
+    { "x": 9800, "y": 300 }
+  ]
+},
+
+{
+"key": "flying-enemy-118",
+"type": "enemy",
+"category": "flying",
+"path": "Asset 7.svg",
+"scale": 0.51,
+"speed": 100,  
+"hitbox": {
+  "width": 100,
+  "height": 150
+},
+"movement": {
+  "type": "sine",
+  "amplitude": 100,
+  "frequency": 2000
+},
+"positions": [
+  { "x": 9900, "y": 350 }
+ 
+]
+},
+{
+  "key": "stable-platform-37",
+  "type": "platform",
+  "path": "Asset 11.svg",
+  "scale": 0.4,
+  "isStatic": true,
+  "hitbox": {
+    "width": 0,
+    "height": 100 
+  },
+  "positions": [
+    { "x": 9650, "y": 680 }
+
+  ]
+},
+{
+  "key": "stable-enemy-4",
+  "type": "enemy",
+  "category": "stable",
+  "path": "Asset 72.svg",
+  "scale": 0.5,
+  "isStatic": true,
+  "hitbox": {
+    "width": 200,
+    "height": 250
+  },
+  "positions": [
+    { "x": 10200, "y": 530 }   
+  ]
+},
+
+{
+  "key": "ground-enemy-109",
+  "type": "enemy",
+  "category": "ground",
+  "path": "Asset 27.svg",
+  "scale": 0.4,
+  "speed": 150,   
+  "hitbox": {
+    "width": 50,
+    "height": 50
+  },
+  "sideHitboxes": {
+    "left": {
+      "width": 110,
+      "height": 50
+    },
+    "right": {
+      "width": 100,
+      "height": 50
+    }
+  },
+  "positions": [
+    { "x": 10300, "y": 530 }  
+  ]
+},
+{
+  "key": "stable-platform-20",
+  "type": "platform",
+  "path": "Asset 101.svg",
+  "scale": 0.7,
+  "isStatic": true,
+  "hitbox": {
+    "width": 0,
+    "height": 90 
+  },
+  "positions": [
+    { "x": 10600, "y": 510 }
+
+  ]
+},
+{
+  "key": "flying-enemy-1",
+  "type": "enemy",
+  "category": "flying",
+  "path": "Asset 100.svg",
+  "scale": 0.16,
+  "speed": 150,  
+  "hitbox": {
+    "width": 100,
+    "height": 100
+  },
+  "movement": {
+    "type": "sine",
+    "amplitude": 160,
+    "frequency": 2000
+  },
+  "positions": [
+    { "x": 10600, "y": 250 }
+  ]
+},
+{
+  "key": "gap",
+  "type": "gap",
+  "path": "gap.png", 
+  "scale": 1,
+  "hitbox": {
+    "width": 200,
+    "height": 20 
+  },
+  "positions": [
+    { "x": 10700, "y": 300 }, 
+    { "x": 10900, "y": 300 }  
+  ]
+},
+{
+  "key": "stable-platform-39",
+  "type": "platform",
+  "path": "Asset 7.svg",
+  "scale": 1,
+  "isStatic": true,
+  "hitbox": {
+    "width": 0,
+    "height": 100 
+  },
+  "positions": [
+    { "x": 10950, "y": 660 }
+
+  ]
+},
+
+
+{
+  "key": "stable-enemy-5",
+  "type": "enemy",
+  "category": "stable",
+  "path": "Asset 76.svg",
+  "scale": 0.7,
+  "isStatic": true,
+  "hitbox": {
+    "width": 20,
+    "height": 250
+  },
+  "positions": [
+    { "x": 11150, "y": 510 }
+  ]
+},
+{
+  "key": "stable-platform-41",
+  "type": "platform",
+  "path": "Asset 16.svg",
+  "scale": 1,
+  "isStatic": true,
+  "hitbox": {
+    "width": 90,
+    "height": 100 
+  },
+  "positions": [
+    { "x": 11400, "y": 485 }
+
+  ]
+},
+{
+  "key": "stable-platform-42",
+  "type": "platform",
+  "path": "Asset 29.svg",
+  "scale": 1,
+  "isStatic": true,
+  "hitbox": {
+    "width": 0,
+    "height": 100 
+  },
+  "positions": [
+    { "x": 11700, "y": 485 }
+
+  ]
+},
+{
+  "key": "stable-platform-43",
+  "type": "platform",
+  "path": "Asset 11.svg",
+  "scale": 0.5,
+  "isStatic": true,
+  "hitbox": {
+    "width": 0,
+    "height": 100 
+  },
+  "positions": [
+    { "x": 11800, "y": 675 }
+
+  ]
+},
+
+{
+  "key": "stable-platform-44",
+  "type": "platform",
+  "path": "Asset 30.svg",
+  "scale": 0.7,
+  "isStatic": true,
+  "hitbox": {
+    "width": 150,
+    "height": 120 
+  },
+  "positions": [
+    { "x": 12000, "y": 300 }
+
+  ]
+},
+
+
+{
+  "key": "stable-platform-46",
+  "type": "platform",
+  "path": "Asset 32.svg",
+  "scale": 1,
+  "isStatic": true,
+  "hitbox": {
+    "width": 50,
+    "height": 100 
+  },
+  "positions": [
+    { "x": 12500, "y": 490 }
+
+  ]
+},
+
+{
+  "key": "ground-enemy-122",
+  "type": "enemy",
+  "category": "ground",
+  "path": "Asset 59.svg",
+  "scale": 0.4,
+  "speed": 150,   
+  "hitbox": {
+    "width": 50,
+    "height": 50
+  },
+  "sideHitboxes": {
+    "left": {
+      "width": 110,
+      "height": 50
+    },
+    "right": {
+      "width": 100,
+      "height": 50
+    }
+  },
+  "positions": [
+    { "x": 12600, "y": 535 }
+  ]
+},
+{
+  "key": "stable-platform-48",
+  "type": "platform",
+  "path": "Asset 33.svg",
+  "scale": 1,
+  "isStatic": true,
+  "hitbox": {
+    "width": 250,
+    "height": 100 
+  },
+  "positions": [
+    { "x": 13000, "y": 513 }
+
+  ]
+}
+,{
+  "key": "stable-platform-49",
+  "type": "platform",
+  "path": "Asset 11.svg",
+  "scale": 0.4,
+  "isStatic": true,
+  "hitbox": {
+    "width": 200,
+    "height": 100 
+  },
+  "positions": [
+    { "x": 13200, "y": 635 }
+
+  ]
+}
+,{
+  "key": "ground-enemy-123",
+  "type": "enemy",
+  "category": "ground",
+  "path": "Asset 34.svg",
+  "scale": 0.7,
+  "speed": 150,   
+  "hitbox": {
+    "width": 50,
+    "height": 50
+  },
+  "sideHitboxes": {
+    "left": {
+      "width": 110,
+      "height": 50
+    },
+    "right": {
+      "width": 100,
+      "height": 50
+    }
+  },
+  "positions": [
+    { "x": 13200, "y": 510 }
+
+  ]
+}
+,{
+  "key": "stable-platform-51",
+  "type": "platform",
+  "path": "Asset 8.svg",
+  "scale": 1,
+  "isStatic": true,
+  "hitbox": {
+    "width": 100,
+    "height": 100 
+  },
+  "positions": [
+    { "x": 13300, "y": 329 }
+
+  ]
+},
+
+{
+  "key": "stable-enemy-6",
+  "type": "enemy",
+  "category": "stable",
+  "path": "Asset 72.svg",
+  "scale": 0.5,
+  "isStatic": true,
+  "hitbox": {
+    "width": 200,
+    "height": 250
+  },
+  "positions": [
+    { "x": 13550, "y": 528 }
+  ]
+},
+{
+  "key": "stable-enemy-111",
+  "type": "enemy",
+  "category": "stable",
+
+  "path": "104.svg",
+  "scale": 0.3,
+  "isStatic": true,
+  "hitbox": {
+    "width": 150,
+    "height": -10 
+  },
+  "positions": [
+    { "x": 14100, "y": 550 }
+
+  ]
+},
+{
+  "key": "flying-enemy-5",
+  "type": "enemy",
+  "category": "flying",
+  "path": "Asset 78.svg",
+  "scale": 0.47,
+  "speed": 150,  
+  "hitbox": {
+    "width": 1,
+    "height": 100
+  },
+  "movement": {
+    "type": "sine",
+    "amplitude": 160,
+    "frequency": 2000
+  },
+  "positions": [
+    { "x": 14100, "y": 220 }
+  ]
+},
+{
+  "key": "ground-enemy-1",
+  "type": "enemy",
+  "category": "ground",
+  "path": "Asset 11.svg",
+  "scale": 0.3,
+  "speed": 150,   
+  "hitbox": {
+    "width": 50,
+    "height": 50
+  },
+  "sideHitboxes": {
+    "left": {
+      "width": 110,
+      "height": 50
+    },
+    "right": {
+      "width": 100,
+      "height": 50
+    }
+  },
+  "positions": [
+    { "x": 14200, "y": 669 },
+    { "x": 14350, "y": 699 },
+    { "x": 14250, "y": 750 }
+  ]
+},
+{
+  "key": "stable-platform-54",
+  "type": "platform",
+  "path": "Asset 7.svg",
+  "scale": 1,
+  "isStatic": true,
+  "hitbox": {
+    "width": 0,
+    "height": 100 
+  },
+  "positions": [
+    { "x": 14400, "y": 430 }
+
+  ]
+},
+{
+  "key": "stable-enemy-112",
+  "type": "enemy",
+  "path": "Asset 69.svg",
+  "category":"stable",
+  "scale": 1.7,
+  "isStatic": true,
+  "hitbox": {
+    "width": 30,
+    "height": 200 
+  },
+  "positions": [
+    { "x": 14600, "y": 434 }
+
+  ]
+},{
+  "key": "stable-platform-55",
+  "type": "platform",
+  "path": "Asset 33.svg",
+  "scale": 1,
+  "isStatic": true,
+  "hitbox": {
+    "width": 270, 
+    "height": 0   
+  },
+  "positions": [
+    { "x": 15000, "y": 520 },
+    { "x": 15600, "y": 520 },
+    { "x": 16200, "y": 520 },
+    { "x": 16800, "y": 520 }
+  ]
+},
+{
+  "key": "stable-enemy-10",
+  "type": "enemy",
+  "category": "stable",
+  "path": "Asset 72.svg",
+  "scale": 0.7,
+  "isStatic": true,
+  "hitbox": {
+    "width": 250,   
+    "height": 50  
+  },
+  "positions": [
+    { "x": 15290, "y": 515 },
+    { "x": 15900, "y": 515 },
+    { "x": 16500, "y": 515 }
+  ]
+},
+
+
+{
+  "key": "flying-enemy-12",
+  "type": "enemy",
+  "category": "flying",
+  "path": "Asset 8.svg",
+  "scale": 0.7,
+  "hitbox": {
+    "width": 100,  
+    "height": 140   
+  },
+  "movement": {
+    "type": "sine",
+    "amplitude": 150,
+    "frequency": 2000
+  },
+  "positions": [
+    { "x": 15000, "y": 175 },
+    { "x": 15300, "y": 70 },
+    { "x": 15600, "y": 175 },
+    { "x": 15900, "y": 70 },
+    { "x": 16200, "y": 175 },
+    { "x": 16500, "y": 70 },
+    { "x": 16800, "y": 175 }
+
+
+
+  ]
+},
+{
+  "key": "stable-platform-57",
+  "type": "platform",
+  "path": "Asset 10.svg",
+  "scale": 2,
+  "isStatic": true,
+  "hitbox": {
+    "width": 20,
+    "height": 200 
+  },
+  "positions": [
+    { "x": 17100, "y": 415 }
+
+  ]
+},
+{
+  "key": "ground-enemy-117",
+  "type": "enemy",
+  "category": "ground",
+  "path": "Asset 17.svg",
+  "scale": 0.5,
+  "speed": 150,   
+  "hitbox": {
+    "width": 50,
+    "height": 50
+  },
+  "sideHitboxes": {
+    "left": {
+      "width": 110,
+      "height": 50
+    },
+    "right": {
+      "width": 100,
+      "height": 50
+    }
+  },
+  "positions": [
+    { "x": 17300, "y": 520 }  
+  ]
+},
+{
+  "key": "ground-enemy-10",
+  "type": "enemy",
+  "category": "ground",
+  "path": "Asset 106.svg",
+  "scale": 0.5,
+  "speed": 150,   
+  "hitbox": {
+    "width": 50,
+    "height": 50
+  },
+  "sideHitboxes": {
+    "left": {
+      "width": 110,
+      "height": 50
+    },
+    "right": {
+      "width": 100,
+      "height": 50
+    }
+  },
+  "positions": [
+    { "x": 17800, "y": 520 }  
+  ]
+},
+{
+  "key": "stable-platform-58",
+  "type": "platform",
+  "path": "Asset 12.svg",
+  "scale": 1,
+  "isStatic": true,
+  "hitbox": {
+    "width": 20,
+    "height": 100 
+  },
+  "positions": [
+    { "x": 17650, "y": 490 }
+
+  ]
+},
+{
+  "key": "stable-platform-60",
+  "type": "platform",
+  "path": "Asset 29.svg",
+  "scale": 1,
+  "isStatic": true,
+  "hitbox": {
+    "width": 100,
+    "height": 100 
+  },
+  "positions": [
+    { "x": 18200, "y": 490 }
+
+  ]
+},
+{
+  "key": "flying-enemy-106",
+  "type": "enemy",
+  "category": "flying",
+  "path": "Asset 5.svg",
+  "scale": 0.5,
+  "hitbox": {
+    "width": 100,  
+    "height": 20   
+  },
+  "movement": {
+    "type": "sine",
+    "amplitude": 150,
+    "frequency": 2000
+  },
+  "positions": [
+    { "x": 18200, "y": 105 }
+
+
+
+  ]
+}
+
+,{
+  "key": "stable-platform-61",
+  "type": "platform",
+  "path": "Asset 10.svg",
+  "scale": 1.5,
+  "isStatic": true,
+  "hitbox": {
+    "width": 0,
+    "height": 200 
+  },
+  "positions": [
+    { "x": 18400, "y": 453 }
+
+  ]
+},
+{
+  "key": "ground-enemy-199",
+  "type": "enemy",
+  "category": "ground",
+  "path": "Asset 37.svg",
+  "scale": 0.3,
+  "speed": 150,   
+  "hitbox": {
+    "width": 50,
+    "height": 50
+  },
+  "sideHitboxes": {
+    "left": {
+      "width": 110,
+      "height": 50
+    },
+    "right": {
+      "width": 100,
+      "height": 50
+    }
+  },
+  "positions": [
+    { "x": 18500, "y": 540 }  
+  ]
+},{
+  "key": "stable-platform-62",
+  "type": "platform",
+  "path": "Asset 7.svg",
+  "scale": 1,
+  "isStatic": true,
+  "hitbox": {
+    "width": 100,
+    "height": 120 
+  },
+  "positions": [
+    { "x": 18800, "y": 490 },
+    { "x": 18900, "y": 320 }
+
+
+  ]
+},
+{
+  "key": "ground-enemy-19",
+  "type": "enemy",
+  "category": "ground",
+  "path": "Asset 22.svg",
+  "scale": 0.2,
+  "speed": 150,   
+  "hitbox": {
+    "width": 50,
+    "height": 50
+  },
+  "sideHitboxes": {
+    "left": {
+      "width": 110,
+      "height": 50
+    },
+    "right": {
+      "width": 100,
+      "height": 50
+    }
+  },
+  "positions": [
+    { "x": 18900, "y": 540 },
+    { "x": 18960, "y": 540 },
+    { "x": 19020, "y": 540 },
+    { "x": 19080, "y": 540 }
+
+  ]
+}
+,{
+  "key": "stable-platform-63",
+  "type": "platform",
+  "path": "Asset 11.svg",
+  "scale": 0.2,
+  "isStatic": true,
+  "hitbox": {
+    "width": 0,
+    "height": 200 
+  },
+  "positions": [
+    { "x": 18790, "y": 760 }
+
+
+  ]
+},
+{
+  "key": "gap",
+  "type": "gap",
+  "path": "gap.png", 
+  "scale": 1,
+  "hitbox": {
+    "width": 120,
+    "height": 20 
+  },
+  "positions": [
+    { "x": 19390, "y": 300 } ,
+    { "x": 19490, "y": 300 } 
+  ]
+}
+,{
+  "key": "stable-platform-64",
+  "type": "platform",
+  "path": "Asset 7.svg",
+  "scale": 1,
+  "isStatic": true,
+  "hitbox": {
+    "width": 0,
+    "height": 100 
+  },
+  "positions": [
+    { "x": 19500, "y": 540 }
+
+
+  ]
+}
+,{
+  "key": "ground-enemy-140",
+  "type": "enemy",
+  "category": "ground",
+  "path": "Asset 39.svg",
+  "scale": 0.6,
+  "speed": 150,   
+  "hitbox": {
+    "width": 50,
+    "height": 50
+  },
+  "sideHitboxes": {
+    "left": {
+      "width": 110,
+      "height": 50
+    },
+    "right": {
+      "width": 100,
+      "height": 50
+    }
+  },
+  "positions": [
+    { "x": 19700, "y": 510 }
+    
+  ]
+}
+
+,{
+  "key": "ground-enemy-142",
+  "type": "enemy",
+  "category": "ground",
+  "path": "Asset 11.svg",
+  "scale": 0.3,
+  "speed": 150,   
+  "hitbox": {
+    "width": 50,
+    "height": 50
+  },
+  "sideHitboxes": {
+    "left": {
+      "width": 110,
+      "height": 50
+    },
+    "right": {
+      "width": 100,
+      "height": 50
+    }
+  },
+  "positions": [
+    { "x": 19800, "y": 695 }
+
+    
+  ]
+}
+,{
+  "key": "stable-platform-68",
+  "type": "platform",
+  "path": "Asset 59.svg",
+  "scale": 0.3,
+  "isStatic": true,
+  "hitbox": {
+    "width": 100,
+    "height": 100 
+  },
+  "positions": [
+    { "x": 20300, "y": 535 }
+
+
+  ]
+},{
+  "key": "stable-platform-68",
+  "type": "platform",
+  "path": "Asset 59.svg",
+  "scale": 0.5,
+  "isStatic": true,
+  "hitbox": {
+    "width": 100,
+    "height": 100 
+  },
+  "positions": [
+    { "x": 20380, "y": 525 }
+
+
+  ]
+}
+,
+
+{
+  "key": "flying-enemy-123",
+  "type": "enemy",
+  "category": "flying",
+  "path": "Asset 74.svg",
+  "scale": 0.65,
+  "speed": 150,  
+  "hitbox": {
+    "width": 100,
+    "height": 150
+  },
+  "movement": {
+    "type": "sine",
+    "amplitude": 160,
+    "frequency": 2000
+  },
+  "positions": [
+    { "x": 20500, "y": 285 }
+  ]
+
+} ,{
+  "key": "stable-platform-20",
+  "type": "platform",
+  "path": "Asset 101.svg",
+  "scale": 1,
+  "isStatic": true,
+  "hitbox": {
+    "width": 0,
+    "height": 90 
+  },
+  "positions": [
+  { "x": 20800, "y": 490 }
+
+  ]
+},
+{
+  "key": "flying-enemy-1",
+  "type": "enemy",
+  "category": "flying",
+  "path": "Asset 100.svg",
+  "scale": 0.24,
+  "speed": 150,  
+  "hitbox": {
+    "width": 100,
+    "height": 100
+  },
+  "movement": {
+    "type": "sine",
+    "amplitude": 160,
+    "frequency": 2000
+  },
+  "positions": [
+    { "x": 20800, "y": 150 }
+  ]
+
+} 
+,{
+  "key": "ground-enemy-141",
+  "type": "enemy",
+  "category": "ground",
+  "path": "Asset 11.svg",
+  "scale": 0.3,
+  "speed": 150,   
+  "hitbox": {
+    "width": 50,
+    "height": 50
+  },
+  "sideHitboxes": {
+    "left": {
+      "width": 110,
+      "height": 50
+    },
+    "right": {
+      "width": 100,
+      "height": 50
+    }
+  },
+  "positions": [
+    { "x": 20890, "y": 680 }
+    
+  ]
+}
+
+,
+{
+  "key": "gap",
+  "type": "gap",
+  "path": "gap.png", 
+  "scale": 1,
+  "hitbox": {
+    "width": 1800,
+    "height": 20 
+  },
+  "positions": [
+    { "x": 21600, "y": 300 }
+  ]
+},
+
+{
+  "key": "stable-platform-73",
+  "type": "platform",
+  "path": "F.svg", 
+  "scale": 1,
+  "isStatic": true,
+  "hitbox": {
+    "width": 100,
+    "height": 20 
+  },
+  "positions": [
+    { "x": 21650, "y": 630 } 
+  ]
+},
+{
+  "key": "stable-platform-74",
+  "type": "platform",
+  "path": "U.svg", 
+  "scale": 1,
+  "isStatic": true,
+  "hitbox": {
+    "width": 100,
+    "height": 20 
+  },
+  "positions": [
+    { "x": 21850, "y": 630 } 
+  ]
+},{
+  "key": "stable-platform-75",
+  "type": "platform",
+  "path": "N.svg", 
+  "scale": 1,
+  "isStatic": true,
+  "hitbox": {
+    "width": 100,
+    "height": 20 
+  },
+  "positions": [
+    { "x": 22050, "y": 630 } 
+  ]
+},{
+  "key": "stable-platform-76",
+  "type": "platform",
+  "path": "C.svg", 
+  "scale": 1,
+  "isStatic": true,
+  "hitbox": {
+    "width": 100,
+    "height": 20 
+  },
+  "positions": [
+    { "x": 22250, "y": 630 } 
+  ]
+},{
+  "key": "stable-platform-77",
+  "type": "platform",
+  "path": "R.svg", 
+  "scale": 1,
+  "isStatic": true,
+  "hitbox": {
+    "width": 100,
+    "height": 20 
+  },
+  "positions": [
+    { "x": 22500, "y": 630 } 
+  ]
+},{
+  "key": "stable-platform-78",
+  "type": "platform",
+  "path": "E.svg", 
+  "scale": 1,
+  "isStatic": true,
+  "hitbox": {
+    "width": 100,
+    "height": 20 
+  },
+  "positions": [
+    { "x": 22750, "y": 630 } 
+  ]
+},{
+  "key": "stable-platform-79",
+  "type": "platform",
+  "path": "T.svg", 
+  "scale": 1,
+  "isStatic": true,
+  "hitbox": {
+    "width": 100,
+    "height": 20 
+  },
+  "positions": [
+    { "x": 23000, "y": 630 } 
+  ]
+},{
+  "key": "stable-platform-80",
+  "type": "platform",
+  "path": "E.svg", 
+  "scale": 1,
+  "isStatic": true,
+  "hitbox": {
+    "width": 100,
+    "height": 20 
+  },
+  "positions": [
+    { "x": 23250, "y": 630 } 
+  ]
+}
+,  {
+  "key": "flying-enemy-113",
+  "type": "enemy",
+  "category": "flying",
+  "path": "Asset 49.svg",
+  "scale": 0.41,
+  "speed": 150,  
+  "hitbox": {
+    "width": 100,
+    "height": 100
+  },
+  "movement": {
+    "type": "sine",
+    "amplitude": 230,
+    "frequency": 2000
+  },
+  "positions": [
+    { "x": 21650, "y": 150 },
+
+    { "x": 21850, "y": 150 },
+    { "x": 22050, "y": 150 },
+    { "x": 22250, "y": 150 },
+    { "x": 22500, "y": 150 },
+    { "x": 22750, "y": 150 },
+    { "x": 23000, "y": 150 },
+    { "x": 23250, "y": 150 }
+
+
+
+
+
+
+  ]
+},
+  {
+  "key": "flying-enemy-114",
+  "type": "enemy",
+  "category": "flying",
+  "path": "Asset 49.svg",
+  "scale": 0.41,
+  "speed": 100,  
+  "hitbox": {
+    "width": 100,
+    "height": 100
+  },
+  "movement": {
+    "type": "sine",
+    "amplitude": 560,
+    "frequency": 2000
+  },
+  "positions": [
+    { "x": 21750, "y": 50 },
+    { "x": 21950, "y": 50 },
+    { "x": 22150, "y": 50 },
+    { "x": 22350, "y": 50 },
+    { "x": 22600, "y": 50 },
+    { "x": 22850, "y": 50 },
+    { "x": 23100, "y": 50 }
+
+
+
+
+   
+  ]
+},
+{
+  "key": "stable-platform-109",
+  "type": "platform",
+  "path": "Asset 108.svg", 
+  "scale": 0.4,
+  "isStatic": true,
+  "hitbox": {
+    "width": 100,
+    "height": 20 
+  },
+  "positions": [
+    { "x": 24450, "y": 525 } 
+  ]
+}
+
+
+  ]
+}

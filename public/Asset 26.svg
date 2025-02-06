@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80.12 51.57">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: .25px;
+      }
+
+      .cls-2 {
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <g id="LINE">
+    <g id="HATCH">
+      <polyline class="cls-2" points="26.3 44.06 13.21 .44 .12 44.06"/>
+    </g>
+    <g id="LINE-2" data-name="LINE">
+      <line class="cls-1" x1="26.3" y1="44.06" x2="13.21" y2=".44"/>
+    </g>
+    <g id="LINE-3" data-name="LINE">
+      <line class="cls-1" x1="13.21" y1=".44" x2=".12" y2="44.06"/>
+    </g>
+    <g id="ARC">
+      <path class="cls-1" d="m.12,44.06c4.38,7.23,13.79,9.54,21.01,5.16,2.11-1.28,3.88-3.05,5.16-5.16"/>
+    </g>
+    <g id="HATCH-2" data-name="HATCH">
+      <polyline class="cls-2" points="53.15 44.06 40.06 .44 26.97 44.06"/>
+    </g>
+    <g id="LINE-4" data-name="LINE">
+      <line class="cls-1" x1="53.15" y1="44.06" x2="40.06" y2=".44"/>
+    </g>
+    <g id="LINE-5" data-name="LINE">
+      <line class="cls-1" x1="40.06" y1=".44" x2="26.97" y2="44.06"/>
+    </g>
+    <g id="ARC-2" data-name="ARC">
+      <path class="cls-1" d="m26.97,44.06c4.38,7.23,13.79,9.54,21.01,5.16,2.11-1.28,3.88-3.05,5.16-5.16"/>
+    </g>
+    <g id="HATCH-3" data-name="HATCH">
+      <polyline class="cls-2" points="80 44.06 66.91 .44 53.82 44.06"/>
+    </g>
+    <g id="LINE-6" data-name="LINE">
+      <line class="cls-1" x1="80" y1="44.06" x2="66.91" y2=".44"/>
+    </g>
+    <g id="LINE-7" data-name="LINE">
+      <line class="cls-1" x1="66.91" y1=".44" x2="53.82" y2="44.06"/>
+    </g>
+    <g id="ARC-3" data-name="ARC">
+      <path class="cls-1" d="m53.82,44.06c4.38,7.23,13.79,9.54,21.01,5.16,2.11-1.28,3.88-3.05,5.16-5.16"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 131.04 133.29">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <g id="LINE">
+    <g id="LWPOLYLINE">
+      <path class="cls-1" d="m66.66,132.79v-16.93c-22.27,0-41.77-14.96-47.53-36.47-7.03-26.25,8.54-53.23,34.79-60.27,26.25-7.03,53.23,8.54,60.27,34.79l16.35-4.38C121.09,14.25,84.82-6.68,49.54,2.77,14.25,12.22-6.68,48.49,2.77,83.77c7.75,28.91,33.95,49.02,63.89,49.02Z"/>
+    </g>
+    <g id="LINE-2" data-name="LINE">
+      <line class="cls-1" x1="17.45" y1="66.66" x2=".52" y2="66.66"/>
+    </g>
+    <g id="LINE-3" data-name="LINE">
+      <line class="cls-1" x1="42.05" y1="109.27" x2="33.59" y2="123.93"/>
+    </g>
+    <g id="LINE-4" data-name="LINE">
+      <line class="cls-1" x1="109.27" y1="42.05" x2="123.93" y2="33.59"/>
+    </g>
+    <g id="LINE-5" data-name="LINE">
+      <line class="cls-1" x1="91.26" y1="24.04" x2="99.72" y2="9.38"/>
+    </g>
+    <g id="LINE-6" data-name="LINE">
+      <line class="cls-1" x1="53.92" y1="114.19" x2="49.54" y2="130.54"/>
+    </g>
+    <g id="LINE-7" data-name="LINE">
+      <line class="cls-1" x1="19.12" y1="79.39" x2="2.77" y2="83.77"/>
+    </g>
+    <g id="LINE-8" data-name="LINE">
+      <line class="cls-1" x1="66.66" y1="17.45" x2="66.66" y2=".52"/>
+    </g>
+    <g id="LINE-9" data-name="LINE">
+      <line class="cls-1" x1="31.86" y1="101.45" x2="19.89" y2="113.42"/>
+    </g>
+    <g id="LINE-10" data-name="LINE">
+      <line class="cls-1" x1="19.12" y1="53.92" x2="2.77" y2="49.54"/>
+    </g>
+    <g id="LINE-11" data-name="LINE">
+      <line class="cls-1" x1="31.86" y1="31.86" x2="19.89" y2="19.89"/>
+    </g>
+    <g id="LINE-12" data-name="LINE">
+      <line class="cls-1" x1="24.04" y1="91.26" x2="9.38" y2="99.72"/>
+    </g>
+    <g id="LINE-13" data-name="LINE">
+      <line class="cls-1" x1="101.45" y1="31.86" x2="113.42" y2="19.89"/>
+    </g>
+    <g id="LINE-14" data-name="LINE">
+      <line class="cls-1" x1="24.04" y1="42.05" x2="9.38" y2="33.59"/>
+    </g>
+    <g id="LINE-15" data-name="LINE">
+      <line class="cls-1" x1="42.05" y1="24.04" x2="33.59" y2="9.38"/>
+    </g>
+    <g id="LINE-16" data-name="LINE">
+      <line class="cls-1" x1="53.92" y1="19.12" x2="49.54" y2="2.77"/>
+    </g>
+    <g id="LINE-17" data-name="LINE">
+      <line class="cls-1" x1="79.39" y1="19.12" x2="83.77" y2="2.77"/>
+    </g>
+  </g>
+</svg>
