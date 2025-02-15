@@ -14,6 +14,7 @@ export class PreloadScene extends Phaser.Scene {
   }
 
   preload() {
+    
     // Load all player assets
     assetsConfig.players.forEach(player => {
       this.load.image(player.key, player.path);

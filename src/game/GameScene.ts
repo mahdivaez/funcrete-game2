@@ -207,9 +207,12 @@ export class GameScene extends Phaser.Scene {
   }
 
   private setupUI() {
-    this.scoreText = this.add.text(16, 16, 'Score: 0', { fontSize: '32px', color: '#000' })
-      .setScrollFactor(0);
-  }
+    this.scoreText = this.add.text(16, 16, 'Score: 0', { 
+      fontSize: '32px',
+      color: '#ffffff'
+    })
+    .setScrollFactor(0);
+}
 
   private updateUI() {
     this.scoreText.setText(`Score: ${this.score}`);
@@ -246,7 +249,7 @@ export class GameScene extends Phaser.Scene {
   }
 
   // Get ground line height from createGroundWithGaps()
-  const groundLineY = this.cameras.main.height * 0.7; // The same as used in createGroundWithGaps()
+  const groundLineY = this.cameras.main.height * 0.66; // The same as used in createGroundWithGaps()
   const deathY = groundLineY + 1; // Set death threshold slightly below the ground line
 
   // Lose the game if the player falls below the ground line

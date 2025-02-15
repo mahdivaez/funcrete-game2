@@ -69,7 +69,7 @@
       "path": "Asset 200.svg",
       "scale": 0.6,
       "hitbox": {
-        "width": 140,
+        "width": 40,
         "height": 0
       },
       "physics": {
@@ -88,9 +88,9 @@
       "key": "player2_black",
       "type": "player",
       "path": "Asset 198.svg",
-      "scale": 0.5,
+      "scale": 0.6,
       "hitbox": {
-        "width": 140,
+        "width": 40,
         "height": 0
       },
       "physics": {
@@ -109,9 +109,9 @@
       "key": "player2_gray",
       "type": "player",
       "path": "Asset 199.svg",
-      "scale": 0.5,
+      "scale": 0.6,
       "hitbox": {
-        "width": 300,
+        "width": 40,
         "height": 0
       },
       "physics": {
@@ -130,7 +130,7 @@
       "key": "player3_red",
       "type": "player",
       "path": "Asset 203.svg",
-      "scale": 0.5,
+      "scale": 0.4,
       "hitbox": {
         "width": 300,
         "height": 0
@@ -277,7 +277,7 @@
       "scale": 1,
       "isStatic": true,
       "hitbox": {
-        "width": 45,
+        "width": 75,
         "height": 900 
       },
       "positions": [
@@ -291,7 +291,7 @@
       "scale": 1,
       "isStatic": true,
       "hitbox": {
-        "width": 55,
+        "width": 75,
         "height": 0 
       },
       "positions": [
@@ -305,7 +305,7 @@
       "scale": 1,
       "isStatic": true,
       "hitbox": {
-        "width": 50,
+        "width": 75,
         "height": 20 
       },
       "positions": [
@@ -319,7 +319,7 @@
       "scale": 1,
       "isStatic": true,
       "hitbox": {
-        "width": 50,
+        "width": 75,
         "height": 20 
       },
       "positions": [
@@ -333,7 +333,7 @@
       "scale": 1,
       "isStatic": true,
       "hitbox": {
-        "width": 50,
+        "width": 75,
         "height": 20 
       },
       "positions": [
@@ -347,7 +347,7 @@
       "scale": 1,
       "isStatic": true,
       "hitbox": {
-        "width": 50,
+        "width": 75,
         "height": 20 
       },
       "positions": [
@@ -361,7 +361,7 @@
       "scale": 1,
       "isStatic": true,
       "hitbox": {
-        "width": 50,
+        "width": 75,
       
         "height": 20 
       },
@@ -376,7 +376,7 @@
       "scale": 1,
       "isStatic": true,
       "hitbox": {
-        "width": 50,
+        "width": 75,
         "height": 20 
       },
       "positions": [
@@ -392,7 +392,7 @@
       "scale": 0.6,
       "isStatic": true,
       "hitbox": {
-        "width": 200,
+        "width": 120,
         "height": 250  
       },
       "positions": [
@@ -518,7 +518,7 @@
       "scale": 0.9,
       "isStatic": true,
       "hitbox": {
-        "width": 140,
+        "width": 40,
         "height": 0 
       },
       "positions": [
@@ -729,7 +729,7 @@
       "key": "stable-enemy-25",
       "type": "enemy",
       "category": "stable",
-      "path": "Asset 103.svg",
+      "path": "Asset 800.svg",
       "scale": 0.33,
       "isStatic": true,
       "hitbox": {
@@ -780,7 +780,7 @@
       "type": "enemy",
       "category": "ground",
       "path": "Asset 19.svg",
-      "scale": 0.7,
+      "scale": 0.5,
       "speed": 150,   
       "hitbox": {
         "width": 50,
@@ -797,7 +797,7 @@
         }
       },
       "positions": [
-        { "x": 7300, "y": 510 }  
+        { "x": 7300, "y": 520 }  
       ]
     }
 ,
@@ -909,7 +909,7 @@
   "scale": 0.5,
   "isStatic": true,
   "hitbox": {
-    "width": 10,
+    "width": 150,
     "height": 0 
   },
   "positions": [
@@ -949,7 +949,7 @@
     "frequency": 2000
   },
   "positions": [
-    { "x": 9250, "y": 300 }
+    { "x": 9250, "y": 200 }
   ]
 },
 
@@ -1161,7 +1161,7 @@
     "height": 100 
   },
   "positions": [
-    { "x": 10950, "y": 660 }
+    { "x": 10950, "y": 640 }
 
   ]
 },
@@ -1293,7 +1293,7 @@
   "scale": 1,
   "isStatic": true,
   "hitbox": {
-    "width": 250,
+    "width": 300,
     "height": 100 
   },
   "positions": [
@@ -1349,11 +1349,11 @@
   "scale": 1,
   "isStatic": true,
   "hitbox": {
-    "width": 100,
+    "width": 160,
     "height": 100 
   },
   "positions": [
-    { "x": 13300, "y": 329 }
+    { "x": 13300, "y": 349 }
 
   ]
 },
@@ -1378,7 +1378,7 @@
   "type": "enemy",
   "category": "stable",
 
-  "path": "104.svg",
+  "path": "Asset 800.svg",
   "scale": 0.3,
   "isStatic": true,
   "hitbox": {
@@ -1474,7 +1474,7 @@
   "scale": 1,
   "isStatic": true,
   "hitbox": {
-    "width": 270, 
+    "width": 290, 
     "height": 0   
   },
   "positions": [
@@ -1603,7 +1603,7 @@
   "scale": 1,
   "isStatic": true,
   "hitbox": {
-    "width": 20,
+    "width": 40,
     "height": 100 
   },
   "positions": [
@@ -1695,7 +1695,7 @@
   "scale": 1,
   "isStatic": true,
   "hitbox": {
-    "width": 100,
+    "width": 150,
     "height": 120 
   },
   "positions": [
@@ -1841,7 +1841,7 @@
   "scale": 0.3,
   "isStatic": true,
   "hitbox": {
-    "width": 100,
+    "width": 150,
     "height": 100 
   },
   "positions": [
@@ -1856,7 +1856,7 @@
   "scale": 0.5,
   "isStatic": true,
   "hitbox": {
-    "width": 100,
+    "width": 150,
     "height": 100 
   },
   "positions": [
@@ -1880,11 +1880,11 @@
   },
   "movement": {
     "type": "sine",
-    "amplitude": 160,
+    "amplitude": 210,
     "frequency": 2000
   },
   "positions": [
-    { "x": 20500, "y": 285 }
+    { "x": 20500, "y": 275 }
   ]
 
 } ,{
