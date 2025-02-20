@@ -12,7 +12,7 @@ export class LevelCompleteScene extends Phaser.Scene {
     this.cameras.main.setBackgroundColor('#ffffff');
 
     // Create container for content
-    const container = this.add.container(400, 150);
+    const container = this.add.container(740, 150);
 
     // Congratulations text
     const congratsText = this.add.text(0, 80, 'تبریک شما برنده شدید', {

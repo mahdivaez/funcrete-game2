@@ -10,7 +10,7 @@ export class GameOverScene extends Phaser.Scene {
     this.cameras.main.setBackgroundColor('#ffffff');
 
     // Create container for content
-    const container = this.add.container(400, 150);
+    const container = this.add.container(750, 150);
 
     // Message text
     const messageText = this.add.text(0, 160, 'دوباره تلاش کنید', {

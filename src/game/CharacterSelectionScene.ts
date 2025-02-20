@@ -14,13 +14,13 @@ export class CharacterSelectionScene extends Phaser.Scene {
   create() {
     this.cameras.main.setBackgroundColor('#ffffff');
 
-    this.add.text(400, 50, 'انتخاب کاراکتر', {
+    this.add.text(750, 50, 'انتخاب کاراکتر', {
       fontSize: '48px',
       color: '#000000',
       fontFamily: 'Arial'
     }).setOrigin(0.5);
 
-    const startX = 100;
+    const startX = 450;
     const spacing = 200;
     const y = 250;
 
@@ -32,10 +32,10 @@ export class CharacterSelectionScene extends Phaser.Scene {
 
     const buttonWidth = 200;
     const buttonHeight = 50;
-    this.startButton = this.add.rectangle(400, y + 200, buttonWidth, buttonHeight, 0x000000)
+    this.startButton = this.add.rectangle(750, y + 200, buttonWidth, buttonHeight, 0x000000)
       .setInteractive();
     
-    const buttonText = this.add.text(400, y + 200, 'شروع بازی', {
+    const buttonText = this.add.text(750, y + 200, 'شروع بازی', {
       fontSize: '24px',
       color: '#ffffff',
       fontFamily: 'Arial'

@@ -25,7 +25,7 @@
       "key": "player1_black",
       "type": "player",
       "path": "Asset 9.svg",
-      "scale": 0.5,
+     "scale": 0.5,
       "hitbox": {
         "width": 140,
         "height": 0
@@ -88,7 +88,7 @@
       "key": "player2_black",
       "type": "player",
       "path": "Asset 198.svg",
-      "scale": 0.6,
+     "scale": 0.6,
       "hitbox": {
         "width": 40,
         "height": 0
@@ -109,7 +109,7 @@
       "key": "player2_gray",
       "type": "player",
       "path": "Asset 199.svg",
-      "scale": 0.6,
+     "scale": 0.6,
       "hitbox": {
         "width": 40,
         "height": 0
@@ -130,7 +130,7 @@
       "key": "player3_red",
       "type": "player",
       "path": "Asset 203.svg",
-      "scale": 0.4,
+      "scale": 0.37,
       "hitbox": {
         "width": 300,
         "height": 0
@@ -143,7 +143,7 @@
         }
       },
       "spawnPoint": {
-        "x": 115,
+        "x": 110,
         "y": 300
       }
     },
@@ -151,7 +151,7 @@
       "key": "player3_black",
       "type": "player",
       "path": "Asset 206.svg",
-      "scale": 0.4,
+      "scale": 0.37,
       "hitbox": {
         "width": 300,
         "height": 0
@@ -164,7 +164,7 @@
         }
       },
       "spawnPoint": {
-        "x": 115,
+        "x": 110,
         "y": 300
       }
     },
@@ -172,7 +172,7 @@
       "key": "player3_gray",
       "type": "player",
       "path": "Asset 201.svg",
-      "scale": 0.4,
+     "scale": 0.37,
       "hitbox": {
         "width": 300,
         "height": 0
@@ -185,7 +185,7 @@
         }
       },
       "spawnPoint": {
-        "x": 115,
+        "x": 110,
         "y": 300
       }
     },
@@ -193,9 +193,9 @@
       "key": "player4_red",
       "type": "player",
       "path": "Asset 205.svg",
-      "scale": 0.4,
+      "scale": 0.38,
       "hitbox": {
-        "width": 300,
+        "width": 250,
         "height": 0
       },
       "physics": {
@@ -206,7 +206,7 @@
         }
       },
       "spawnPoint": {
-        "x": 115,
+        "x": 7000,
         "y": 300
       }
     },
@@ -214,9 +214,9 @@
       "key": "player4_black",
       "type": "player",
       "path": "Asset 209.svg",
-      "scale": 0.4,
+      "scale": 0.38,
       "hitbox": {
-        "width": 300,
+        "width": 250,
         "height": 0
       },
       "physics": {
@@ -227,7 +227,7 @@
         }
       },
       "spawnPoint": {
-        "x": 115,
+        "x": 110,
         "y": 300
       }
     },
@@ -235,9 +235,9 @@
       "key": "player4_gray",
       "type": "player",
       "path": "Asset 204.svg",
-      "scale": 0.4,
+      "scale": 0.38,
       "hitbox": {
-        "width": 300,
+        "width": 250,
         "height": 0
       },
       "physics": {
@@ -248,7 +248,7 @@
         }
       },
       "spawnPoint": {
-        "x": 115,
+        "x": 110,
         "y": 300
       }
     }
@@ -453,7 +453,7 @@
         "height": 150 
       },
       "positions": [
-        { "x": 3800, "y": 395 }
+        { "x": 3700, "y": 470 }
       ]
     },
     {
@@ -467,7 +467,7 @@
         "height": 150 
       },
       "positions": [
-        { "x": 4000, "y": 285 }
+        { "x": 4000, "y": 340 }
       ]
     },
     {
@@ -601,8 +601,8 @@
       "scale": 1,
       "isStatic": true,
       "hitbox": {
-        "width": 0,
-        "height": 90 
+        "width": 100,
+        "height": 100 
       },
       "positions": [
         { "x": 5500, "y": 482 }
@@ -636,7 +636,7 @@
       "scale": 1,
       "isStatic": true,
       "hitbox": {
-        "width": 90,
+        "width": 120,
         "height": 150 
       },
       "positions": [
@@ -707,16 +707,16 @@
       "scale": 0.4,
       "speed": 150,   
       "hitbox": {
-        "width": 50,
+        "width": 200,
         "height": 50
       },
       "sideHitboxes": {
         "left": {
-          "width": 10,
+          "width": 200,
           "height": 50
         },
         "right": {
-          "width": 100,
+          "width": 300,
           "height": 50
         }
       },
@@ -733,7 +733,7 @@
       "scale": 0.33,
       "isStatic": true,
       "hitbox": {
-        "width": 100,
+        "width": 250,
         "height": -12  
       },
       "positions": [
@@ -748,8 +748,8 @@
       "scale": 0.77,
       "speed": 150,  
       "hitbox": {
-        "width": 10,
-        "height": 0
+        "width": 100,
+        "height": 150
       },
       "movement": {
         "type": "sine",
@@ -757,7 +757,7 @@
         "frequency": 2000
       },
       "positions": [
-        { "x": 7000, "y": 150 }
+        { "x": 7000, "y": 140 }
       ]
     },
     {
@@ -945,7 +945,7 @@
   },
   "movement": {
     "type": "sine",
-    "amplitude": 110,
+    "amplitude": 210,
     "frequency": 2000
   },
   "positions": [
@@ -1161,7 +1161,7 @@
     "height": 100 
   },
   "positions": [
-    { "x": 10950, "y": 640 }
+    { "x": 10950, "y": 630 }
 
   ]
 },
@@ -1511,11 +1511,11 @@
   "scale": 0.7,
   "hitbox": {
     "width": 100,  
-    "height": 140   
+    "height": 155   
   },
   "movement": {
     "type": "sine",
-    "amplitude": 150,
+    "amplitude": 198,
     "frequency": 2000
   },
   "positions": [
@@ -1559,7 +1559,7 @@
   },
   "sideHitboxes": {
     "left": {
-      "width": 110,
+      "width": 150,
       "height": 50
     },
     "right": {
@@ -1579,7 +1579,7 @@
   "scale": 0.5,
   "speed": 150,   
   "hitbox": {
-    "width": 50,
+    "width": 280,
     "height": 50
   },
   "sideHitboxes": {
@@ -1588,7 +1588,7 @@
       "height": 50
     },
     "right": {
-      "width": 100,
+      "width": 300,
       "height": 50
     }
   },
@@ -1633,12 +1633,12 @@
   "path": "Asset 5.svg",
   "scale": 0.5,
   "hitbox": {
-    "width": 100,  
-    "height": 20   
+    "width": 10,  
+    "height": 150   
   },
   "movement": {
     "type": "sine",
-    "amplitude": 150,
+    "amplitude": 250,
     "frequency": 2000
   },
   "positions": [
@@ -2076,27 +2076,27 @@
   "type": "enemy",
   "category": "flying",
   "path": "Asset 49.svg",
-  "scale": 0.41,
-  "speed": 150,  
+  "scale": 0.3,
+  "speed": 130,  
   "hitbox": {
-    "width": 100,
-    "height": 100
+    "width": 50,
+    "height": 150
   },
   "movement": {
     "type": "sine",
-    "amplitude": 230,
+    "amplitude": 330,
     "frequency": 2000
   },
   "positions": [
-    { "x": 21650, "y": 150 },
+    { "x": 21690, "y": 150 },
 
-    { "x": 21850, "y": 150 },
-    { "x": 22050, "y": 150 },
-    { "x": 22250, "y": 150 },
-    { "x": 22500, "y": 150 },
-    { "x": 22750, "y": 150 },
-    { "x": 23000, "y": 150 },
-    { "x": 23250, "y": 150 }
+    { "x": 21890, "y": 150 },
+    { "x": 22090, "y": 150 },
+    { "x": 22290, "y": 150 },
+    { "x": 22540, "y": 150 },
+    { "x": 22790, "y": 150 },
+    { "x": 23040, "y": 150 },
+    { "x": 23290, "y": 150 }
 
 
 
@@ -2110,7 +2110,7 @@
   "type": "enemy",
   "category": "flying",
   "path": "Asset 49.svg",
-  "scale": 0.41,
+  "scale": 0.3,
   "speed": 100,  
   "hitbox": {
     "width": 100,
@@ -2118,17 +2118,17 @@
   },
   "movement": {
     "type": "sine",
-    "amplitude": 560,
+    "amplitude": 360,
     "frequency": 2000
   },
   "positions": [
-    { "x": 21750, "y": 50 },
-    { "x": 21950, "y": 50 },
-    { "x": 22150, "y": 50 },
-    { "x": 22350, "y": 50 },
-    { "x": 22600, "y": 50 },
-    { "x": 22850, "y": 50 },
-    { "x": 23100, "y": 50 }
+    { "x": 21780, "y": 50 },
+    { "x": 21980, "y": 50 },
+    { "x": 22180, "y": 50 },
+    { "x": 22380, "y": 50 },
+    { "x": 22630, "y": 50 },
+    { "x": 22880, "y": 50 },
+    { "x": 23130, "y": 50 }
 
 
 
